@@ -23,6 +23,7 @@ export interface NewsFrontmatter {
   date: string;
   category: string;
   summary: string;
+  source?: string;
 }
 
 export interface NewsItem {
